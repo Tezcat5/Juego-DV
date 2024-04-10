@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FondoMovimiento : MonoBehaviour
 {
-    [SerializedField] private Vector2 velocidadMovimiento;
+    [SerializeField] private Vector2 velocidadMovimiento;
 
     private Vector2 offset;
 
@@ -13,7 +13,7 @@ public class FondoMovimiento : MonoBehaviour
 
     private void Awake()
     {
-        material = GetComponent<SpriteRenderer>(.material;)
+        material = GetComponent<SpriteRenderer>().material;
     }
 
 
