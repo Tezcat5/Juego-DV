@@ -16,7 +16,7 @@ public class FondoMovimiento : MonoBehaviour
     private void Awake()
     {
         material = GetComponent<SpriteRenderer>().material;
-        jugadorRB = GameObject.FindGameObjectWithTag("YUVI").GetComponent<Rigidbody2D>();
+        jugadorRB = GameObject.FindGameObjectWithTag("Player").GetComponent<Rigidbody2D>();
     }
 
 
